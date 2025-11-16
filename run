@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+if [[ "$1" == -d ]]; then
+    g++ -g -o "$2" "$2.cpp"
+else
+    g++ -O2 -o "$1" "$1.cpp"
+    ./"$1"
+fi
