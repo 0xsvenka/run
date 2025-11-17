@@ -1,4 +1,4 @@
-# Simple Bash Script to Build & Run Single C++ Source File
+# _run_ - simple Bash script to build & run single C++ source file
 
 Usage:
 
